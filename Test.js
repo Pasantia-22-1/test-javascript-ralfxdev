@@ -660,11 +660,11 @@ console.log(player);
 ================================================================================================================================================== */
 function checkObj(obj, checkProp) {
     // Cambia solo el código debajo de esta línea
-    if(obj[checkProp]){
-      return  console.log(obj[checkProp]);
-    };
+    if (obj[checkProp]){
+      return obj[checkProp];
+    }
     else{
-      return console.log("Not Found");
-    };
+      return "Not Found";
+    }
     // Cambia solo el código encima de esta línea
 };
